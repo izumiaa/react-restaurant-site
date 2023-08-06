@@ -1,0 +1,57 @@
+.about-container {
+    padding: 1.5rem;
+}
+
+/* Styles for the About Us container */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+/* Styles for the main description container */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+
+.about-us-container {
+    background-color: #242424;
+    color: white;
+    padding: 2rem 10rem 2rem 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Libre Baskerville', serif;
+}
+
+.about{
+    font-family: 'Libre Baskerville', serif;
+    margin-bottom: 8px;
+}
+
+.main-description{
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 10px; 
+}
+
+.subheader {
+    font-weight: bold;
+    margin-top: 18px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 8px; 
+}
+
+.description {
+    font-size: 16px;
+    line-height: 1.6;
+    padding: 1rem 0; 
+}
+
+.tagline {
+    font-size: 20px;
+    font-style: italic;
+    margin-bottom: 20px;
+    margin-top: 20px; 
+    font-family: 'Roboto Slab', serif;
+}
+  

@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+
+.cards {
+    text-align: center;
+    padding: 2rem 0;
+    /* background-color: #242424;
+    color: white;  */
+    background-color: white;
+
+  }
+  
+  .cards__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  
+  .cards__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .cards__item__img {
+    width: 100%;
+    max-height: 250px;
+    object-fit: cover;
+  }
+  
+  .cards__item__pic-label {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 0.5rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-top-right-radius: 8px;
+  }
+  
+.cards__item__text {
+    margin-top: 1rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 1.5rem; 
+}
+
+.carousel .slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px; 
+}
+
+.carousel .slider-wrapper {
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.carousel .control-dots .dot {
+    background: #888;
+    margin: 0 4px;
+    width: 8px;
+    height: 8px;
+}
+
+.carousel .control-dots .dot.selected {
+    background: #333;
+}
+  
